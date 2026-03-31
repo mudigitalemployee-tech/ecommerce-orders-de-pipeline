@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+
+# Data (raw source files — do not commit)
+data/raw_*.csv
+data/source_*.csv
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
